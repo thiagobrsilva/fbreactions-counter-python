@@ -105,7 +105,7 @@ while (True):
                     except:
                         reach_number = "0"
 
-            # cleaning' data
+            # 'cleaning' data
             post_msg=post_msg.replace('\n',' ')
             attach_link = unquote(unquote(attach_link))
             attach_link=attach_link.replace('https://l.facebook.com/l.php?u=','')
